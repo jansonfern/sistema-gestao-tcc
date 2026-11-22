@@ -9,7 +9,6 @@
 .env
 .env.backup
 .env.production
-.env.testing
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
@@ -21,4 +20,13 @@ yarn-error.log
 /.vscode
 database/*.sqlite
 /public/build
-storage/framework/sessions/*
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitkeep
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+/storage/framework/testing/*
+!/storage/framework/testing/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
